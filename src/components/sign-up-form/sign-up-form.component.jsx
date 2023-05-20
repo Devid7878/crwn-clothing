@@ -44,7 +44,7 @@ const SignUpForm = () => {
 			});
 			resetFormFields();
 		} catch (error) {
-			console.log('Error authenticating user', error);
+			alert(error);
 		}
 	};
 	return (
