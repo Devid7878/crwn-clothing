@@ -18,7 +18,7 @@ const SignUpForm = () => {
 	const [formFields, setFormFields] = useState(defaultFormFields);
 	const { displayName, email, password, confirmPassword } = formFields;
 
-	console.log(formFields);
+	// console.log(formFields);
 	const onChangeHandler = (event) => {
 		// This name and value are getting us from the input tags the property that we have applied
 		const { name, value } = event.target;
